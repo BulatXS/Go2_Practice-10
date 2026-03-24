@@ -9,7 +9,7 @@
 
 В системе запущены две реплики сервиса `tasks`: 
 - `tasks_1` с `INSTANCE_ID=tasks-1` 
-- - `tasks_2` с `INSTANCE_ID=tasks-2`
+- `tasks_2` с `INSTANCE_ID=tasks-2`
 
 Обе реплики работают на внутреннем порту `8082` внутри docker-сети.
 
