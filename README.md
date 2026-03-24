@@ -114,6 +114,9 @@ cd ./deploy
 cp  .env.example .env
 docker compose up -d --build
 ```
+Запущено:
+![docker ps 1.png](docs/screenshots/docker%20ps%201.png)
+
 Логин:
 ```bash
 curl -k -i -X POST https://localhost:8443/v1/auth/login \
@@ -121,8 +124,7 @@ curl -k -i -X POST https://localhost:8443/v1/auth/login \
   -c cookies.txt \
   -d '{"username":"student","password":"student"}'
 ```
-Запущено:
-![docker ps 1.png](docs/screenshots/docker%20ps%201.png)
+
 
 Серия запросов:
 
